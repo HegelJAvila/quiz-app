@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 100%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    max-width: 100%;
+}
+
+.quiz-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+    height: 430px;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding-top: 1.2rem;
+}
+
+ul li{
+    font-size: 1.1rem;
+    margin: 1.3rem 1.3rem;
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: #0075ff;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    color: white;
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+button:hover{
+    background-color: #0253b0;
+}
